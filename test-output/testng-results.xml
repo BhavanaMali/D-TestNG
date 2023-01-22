@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-27T19:33:36 IST" name="Default suite" finished-at="2022-12-27T19:33:55 IST" duration-ms="19319">
+    <groups>
+      <group name="LoginModule">
+        <method signature="PracHardassert.loginAdminTest()[pri:0, instance:com.itview.testng.PracHardassert@618425b5]" name="loginAdminTest" class="com.itview.testng.PracHardassert"/>
+        <method signature="PracHardassert.logoutAdminTest()[pri:1, instance:com.itview.testng.PracHardassert@618425b5]" name="logoutAdminTest" class="com.itview.testng.PracHardassert"/>
+      </group> <!-- LoginModule -->
+    </groups>
+    <test started-at="2022-12-27T19:33:36 IST" name="Default test" finished-at="2022-12-27T19:33:55 IST" duration-ms="19319">
+      <class name="com.itview.testng.PracHardassert">
+        <test-method is-config="true" signature="preCondition_MutualFund()[pri:0, instance:com.itview.testng.PracHardassert@618425b5]" started-at="2022-12-27T19:33:36 IST" name="preCondition_MutualFund" finished-at="2022-12-27T19:33:46 IST" duration-ms="10721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition_MutualFund -->
+        <test-method signature="loginAdminTest()[pri:0, instance:com.itview.testng.PracHardassert@618425b5]" started-at="2022-12-27T19:33:46 IST" name="loginAdminTest" description="Test Case to verify login Page using &#039;Admin&#039; user" finished-at="2022-12-27T19:33:51 IST" duration-ms="4405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdminTest -->
+        <test-method signature="logoutAdminTest()[pri:1, instance:com.itview.testng.PracHardassert@618425b5]" started-at="2022-12-27T19:33:51 IST" name="logoutAdminTest" description="Test Case to verify logout Page using &#039;Admin&#039; user" finished-at="2022-12-27T19:33:55 IST" depends-on-methods="com.itview.testng.PracHardassert.loginAdminTest" duration-ms="3900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAdminTest -->
+        <test-method is-config="true" signature="postCondition_MutualFund()[pri:0, instance:com.itview.testng.PracHardassert@618425b5]" started-at="2022-12-27T19:33:55 IST" name="postCondition_MutualFund" finished-at="2022-12-27T19:33:55 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition_MutualFund -->
+      </class> <!-- com.itview.testng.PracHardassert -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
